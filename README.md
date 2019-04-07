@@ -32,7 +32,7 @@ Digital Pin 7 -> Input of center NeoPixel
 Digital Pin 8 -> Input of right NeoPixel
 Diital Pin 17 (RX2) -> UTXD0 Pin Duet3D Board (be careful, don't connect the RX Pin of the Board)
 
-Connect all Neopixel 5V Power to the 5V Pin of the Arduino. Do the same with the Ground.
+Connect all Neopixel 5V Power to the 5V Power Supply. Do the same with the Ground.
 Connect the second Arduino Ground Pin with the PanelDue Ground.
 
 Thats it for now!
