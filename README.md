@@ -1,6 +1,10 @@
 # BLV_NeoPixelIntegration for Testing!! Be careful, don't mess up the wiring!
 
 There is also a Arduino Pro-Mini Branch for testing!! 
+
+Full credit goes to Ben. He created a great printer design. Visit his thingiverse page to support.
+https://www.thingiverse.com/thing:3382718
+
 I recomment the following Options:
 - use the Pro-Mini branch if you just want to use the code. No debug information is transmitted to the serial port.
 - use an Arduino Mega for developing. You will need its second serial port for debug messages.
