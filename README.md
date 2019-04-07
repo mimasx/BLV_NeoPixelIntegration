@@ -1,4 +1,4 @@
-# BLV_NeoPixelIntegration
+# BLV_NeoPixelIntegration for Testing!! Be careful, don't mess up the wiring!
 This project contains a very messy code to readout the serial communication between a Duet3D Printer Board and the PanelDue. This Information is displayed on 3 NeoPixel rings.
 
 NeoPixel related and Code comes from the following source:
@@ -36,3 +36,5 @@ Connect all Neopixel 5V Power to the 5V Power Supply. Do the same with the Groun
 Connect the Arduino Ground Pin with the PanelDue Ground and the PowerSupply Ground.
 
 Thats it for now!
+
+There is also a Arduino Pro-Mini Branch for testing!!
