@@ -45,3 +45,10 @@ TODOS:
 - global dimming value
 - opt: Integration of more designs
 - opt: use one or two switches to change designs or shown values
+
+Changelog:
+v0.1 2019-04-07: 
+  Initial working release.
+v0.2 2019-04-17: 
+  - eliminated red dot error. I made a simple counting error.
+  - fading effect for the progress bars. The display of the heating and printing phase looks a bit nicer
