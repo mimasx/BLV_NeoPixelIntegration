@@ -1,4 +1,8 @@
 /* 
+ This is the Version for the Arduino Pro-Mini -> No Serial Connection for debugging. External 5Power Supply
+ needed. FTDI232 Board for Programming also needed. To run the Pro Mini on te Printer, I disconnect DTR, RX 
+ and TX pin between Pro-Mini and FDTR Board and I connected the RX Pin to the PanelDue TX.
+  
  NeoPixel related and Code comes from the following source:
  https://learn.adafruit.com/multi-tasking-the-arduino-part-1
  https://learn.adafruit.com/multi-tasking-the-arduino-part-2
