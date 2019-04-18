@@ -25,7 +25,7 @@ Used Hardware:
 - Arduino Mega incl. additional 5V Powersupply
 - 3 NeoPixel Rings with 16 Pixels each
 - Duet3D Wifi Board
-- Duet PanelDue 5"Display
+- Duet PanelDue 5"Display (PanelDue board is the nimimum reqirement. no Display needed)
 
 Wiring:
 Digital Pin 6 -> Input of left NeoPixel
