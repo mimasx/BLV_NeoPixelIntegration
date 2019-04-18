@@ -577,7 +577,7 @@ void loop()
     Ring2.Update();    
     Ring3.Update();
     
-  int AmbientTemp=15; //nicer Display of ProgressBars
+  int AmbientTemp=25; //nicer Display of ProgressBars
   
   if(UpdateSerial=true){
     GetMessage();
