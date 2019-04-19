@@ -12,7 +12,8 @@ I recomment the following Options:
 - use the Pro-Mini branch if you just want to use the code. No debug information is transmitted to the serial port.
 - use an Arduino Mega for developing. You will need its second serial port for debug messages.
 
-This project contains a very messy code to readout the serial communication between a Duet3D Printer Board and the PanelDue. This Information is displayed on 3 NeoPixel rings.
+This project contains a very messy code to readout the serial communication between a Duet3D Printer Board and the 
+PanelDue. This Information is displayed on 3 NeoPixel rings.
 
 NeoPixel related and Code comes from the following source:
 https://learn.adafruit.com/multi-tasking-the-arduino-part-1
@@ -25,7 +26,7 @@ https://github.com/dc42/PanelDueFirmware
 
 
 Used Hardware:
-- Arduino Mega incl. additional 5V Powersupply (or get 5V from your printer's power supply with)
+- Arduino Mega incl. additional 5V Powersupply (or get 5V from your printer's power supply with a step down power converter)
 - 3 NeoPixel Rings with 16 Pixels each
 - Duet3D Wifi Board
 - Duet PanelDue 5"Display (PanelDue board is the nimimum reqirement. no Display needed)
@@ -34,7 +35,8 @@ Wiring:
 Digital Pin 6 -> Input of left NeoPixel
 Digital Pin 7 -> Input of center NeoPixel
 Digital Pin 8 -> Input of right NeoPixel
-Diital Pin 17 (RX2) -> UTXD0 Pin Duet3D Board (be careful, don't connect the RX Pin of the Board. You will need 3.3V on the arduino board to enable sending messages to the Duet Board. Using 5V may damage your Duet hardware).
+Diital Pin 17 (RX2) -> UTXD0 Pin Duet3D Board (be careful, don't connect the RX Pin of the Board. You will need 3.3V on 
+the arduino board to enable sending messages to the Duet Board. Using 5V may damage your Duet hardware).
 
 Connect all Neopixel 5V Power to the external 5V Power Supply. Do the same with the Ground.
 Connect the Arduino Ground Pin with the PanelDue Ground and the external PowerSupply Ground.
