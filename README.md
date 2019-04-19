@@ -1,6 +1,9 @@
 # BLV_NeoPixelIntegration for Testing!! Be careful, don't mess up the wiring!
 
-There is also a Arduino Pro-Mini Branch for testing!! 
+There is also a Arduino Pro-Mini Branch for testing!! The only difference to the master-branch is the serial communication 
+to the PC for debugging. If you want to create the Pro Mini version by yourself (because I am to lazy to create every 
+version), simply delete all code with "Serial" and rename "Serial2" to "Serial". That's all. I usually don't test the 
+Pro-Mini branch, if you encounter some problems, let me know.
 
 Full credit goes to Ben. He created a great printer design. Visit his thingiverse page to support.
 https://www.thingiverse.com/thing:3382718
