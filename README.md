@@ -25,7 +25,7 @@ https://github.com/dc42/PanelDueFirmware
 
 
 Used Hardware:
-- Arduino Mega incl. additional 5V Powersupply
+- Arduino Mega incl. additional 5V Powersupply (or get 5V from your printer's power supply with)
 - 3 NeoPixel Rings with 16 Pixels each
 - Duet3D Wifi Board
 - Duet PanelDue 5"Display (PanelDue board is the nimimum reqirement. no Display needed)
