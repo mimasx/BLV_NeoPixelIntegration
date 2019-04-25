@@ -54,6 +54,9 @@ TODOS:
 
 Changelog:
 
+v0.4 2019-04-25
+  - another small bug fixed
+
 v0.3 2019-04-19: 
   - Added possibility to use ambient temperatur sensor
   - seperated the "old" progressbar-Pattern from the "new" one with the fading effect. You now can choose which you want.
